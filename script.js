@@ -1,5 +1,10 @@
 var isDate = function (input) {
-  //   write your code here
+  let newDate = new Date(input);
+if (newDate == "Invalid Date") {
+  return false;
+} else {
+  return true;
+}
 };
 
 // Do not change the code below.
